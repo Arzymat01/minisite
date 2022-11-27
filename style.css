@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url('https://media.istockphoto.com/photos/snowflakes-on-snow-christmas-and-winter-background-natural-snowdrift-picture-id1355732924?b=1&k=20&m=1355732924&s=170667a&w=0&h=MJUXu4ef5nYoU6XHGjx5YJP4o2jj554x5O7O9OnTYxM=');
+}
+
+.header ul {
+
+    margin: 0;
+    background-color: rgb(39, 110, 225);
+    text-align: center;
+    padding: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    font-family: 'Alex Brush', cursive;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.header ul a:hover {
+    background-color: rgb(180, 220, 20);
+    color: white;
+    cursor: pointer;
+}
+
+nav,
+ul,
+li,
+span {
+    color: white;
+}
+
+img {
+    height: 90px;
+    width: 90px;
+}
+
+tr:nth-child(even) {
+    background-color: #f595f0;
+    color: white;
+}
+
+
+table,
+td,
+th,
+tr {
+
+    margin: auto;
+    margin-top: 45px;
+    padding: 35px;
+    text-align: center;
+    border: dotted 5px rgb(238, 14, 167);
+    border-collapse: collapse;
+    font-size: 15px;
+    background-color: rgb(0, 15, 128);
+    color: white;
+    width: 60%;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+th:hover {
+    background-color: #99d109;
+    color: white;
+
+}
+
+th {
+    background-color: #740db0;
+    font-size: 20px;
+    border-radius: 35px;
+}
+
+td:hover {
+    background-color: #c11316;
+    color: white;
+
+}
+
+
+
+td:hover {
+    font-size: 30px;
+    color: rgb(241, 235, 235);
+}
+
+tr:nth-child(even) {
+    background-color: #f595f0;
+    color: white;
+    border-radius: 35px;
+}
+
+#text {
+    font-size: 45px;
+    color: white;
+    background-color: rgb(230, 9, 163);
+    margin-bottom: 15px;
+    font-family: 'Alex Brush', cursive;
+    border-radius: 35px;
+
+}
+
+
+
+
+
+#text:hover {
+    color: #100e0e;
+}
+
+#coment {
+    padding-top: 45px;
+    margin-left: 28%;
+    padding-top: 5px;
+    color: rgb(230, 9, 163);
+
+
+
+}
+
+
+
+#block1 {
+    padding: 80px;
+    color: rgb(121, 11, 11);
+    font-size: 23px;
+    border: dotted 5px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 80px;
+
+}
+
+#block2 {
+    padding: 80px;
+    color: #970a7b;
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: dotted 5px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 80px;
+
+
+
+}
+
+.block0 {
+
+
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.block0 p:nth-child(1) {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+
+#block3 {
+    padding: 80px;
+    color: rgb(72, 3, 37);
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 80px 80px 0px 80px;
+    border: dotted 5px black;
+}
+
+.block {
+    display: flex;
+}
+
+.block a {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+form {
+    display: block;
+    margin-left: 39.7%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    border: solid 5px red;
+    height: 25px;
+    width: 350px;
+}
+
+#sms {
+    border: solid 5px red;
+    height: 120px;
+    width: 350px;
+}
+
+#address {
+    margin-left: 40%;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+#img1 {
+    float: right;
+    margin: 20px;
+    width: 250px;
+    height: 167px;
+
+}
+
+#img2 {
+    float: left;
+    margin: 20px;
+    width: 250px;
+    height: 167px;
+
+}
+
+#img3 {
+    float: left;
+    margin: 20px;
+    width: 250px;
+    height: 167px;
+
+}
+
+video {
+    margin-left: 24%;
+    border: 5px solid rgb(221, 8, 122);
+    border-radius: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
