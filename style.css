@@ -5,13 +5,14 @@
 }
 
 body {
-    background-image: url('https://media.istockphoto.com/photos/snowflakes-on-snow-christmas-and-winter-background-natural-snowdrift-picture-id1355732924?b=1&k=20&m=1355732924&s=170667a&w=0&h=MJUXu4ef5nYoU6XHGjx5YJP4o2jj554x5O7O9OnTYxM=');
+    background: url('https://oir.mobi/uploads/posts/2022-08/1661450829_1-oir-mobi-p-zimnii-zadnii-fon-krasivo-1.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .header ul {
 
     margin: 0;
-    background-color: rgb(39, 110, 225);
+    background-color: rgb(24, 40, 74);
     text-align: center;
     padding: 15px;
     list-style: none;
@@ -28,9 +29,10 @@ a {
 }
 
 .header ul a:hover {
-    background-color: rgb(180, 220, 20);
+    background-color: rgb(207, 7, 174);
     color: white;
     cursor: pointer;
+
 }
 
 nav,
@@ -133,9 +135,9 @@ tr:nth-child(even) {
 
 #block1 {
     padding: 80px;
-    color: rgb(121, 11, 11);
+    color: rgb(220, 29, 29);
     font-size: 23px;
-    border: dotted 5px black;
+    border: dotted 5px rgb(240, 221, 13);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 80px;
 
@@ -146,12 +148,31 @@ tr:nth-child(even) {
     color: #970a7b;
     font-size: 23px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border: dotted 5px black;
+    border: dotted 5px rgb(240, 221, 13);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 80px;
 
 
 
+}
+
+#block1:hover {
+    color: white;
+    background-color: #740db0;
+    font-size: 27px;
+}
+
+
+#block2:hover {
+    color: white;
+    background-color: #740db0;
+    font-size: 27px;
+}
+
+#block3:hover {
+    color: white;
+    background-color: #740db0;
+    font-size: 27px;
 }
 
 .block0 {
@@ -183,7 +204,7 @@ tr:nth-child(even) {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 80px 80px 0px 80px;
-    border: dotted 5px black;
+    border: dotted 5px rgb(240, 221, 13);
 }
 
 .block {
@@ -259,7 +280,7 @@ input {
 }
 
 video {
-    margin-left: 24%;
+    margin-left: 20%;
     border: 5px solid rgb(221, 8, 122);
     border-radius: 35px;
     margin-top: 20px;
