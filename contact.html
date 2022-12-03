@@ -9,10 +9,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 
     <title>Contact</title>
 </head>
@@ -22,7 +23,7 @@
         <nav>
             <ul>
                 <a href="./index.html">
-                    <span>Главная</span>
+                    <li> Главная</li>
 
                     <a href="./about.html">
                         <li> О компании</li>
@@ -30,34 +31,61 @@
                     <a href="./contact.html">
                         <li>Контакты</li>
                     </a>
+                    <a href="./skida.html">
+                        <li>Скидки</li>
+                    </a>
+                    <div class="dropdown">
+                        <button class="btndrop"> Коллекци </button>
+                        <div class="contentdrop">
+                            <a href="#"> Теплые Куртки </a>
+                            <a href="#"> Зимние</a>
+                            <a href="#"> Кожаные</a>
+                            <a href="#"> Nike Air Max</a>
+                            <a href="#"> Adidas Superstar</a>
+                            <a href="#"> Nike Air Force</a>
+                        </div>
             </ul>
         </nav>
         <form>
             <p>
                 <label>Имя:</label><br>
-                <input type="Имя" name="name" placeholder="Введите ваше имя">
+                <input type="text" name="name" placeholder="Введите ваше имя">
             </p>
             <p>
                 <label>Email:</label><br>
-                <input type="email" name="email" placeholder="Введите электронный адрес"><br />
+                <input type="text" name="email" placeholder="Введите электронный адрес"><br />
             </p>
             <p>
                 <label>Телефон:</label><br>
-                <input type="tel" name="tel" placeholder="+996"><br />
+                <input type="text" name="tel" placeholder="+996"><br />
             </p>
             <p>
                 <label>Сайт:</label><br>
                 <input type="text" name="address" placeholder="Введите вашего сайта"><br />
             </p>
+            <p class="sec"><label>Одежда:</label></p>
+            <select>
+                <option>Куртка</option>
+                <option>Брюки</option>
+                <option>Толстовка</option>
+                <option>Водолазка</option>
+                <option>Пальто</option>
+
+            </select>
 
             <p>
 
                 <label>Текс сообшения:</label><br>
                 <textarea id="sms" name="comment" cols="50" rows="10"></textarea>
             </p>
+            <p><label> Пол </label>
+                <input type="checkbox" name="men" value="men"> муж
+                <input type="checkbox" name="women" value="women"> жен
+            </p>
+
 
             <input type="submit" value="Отправить собшения"
-                style="background-color: green;color:white; width: 300px; height: 30px; border: solid 1px white;">
+                style="background-color: rgb(249,0,77);color:white; width: 150px; height: 30px; border: solid 1px white; border-radius: 25px;margin-left: 10%;">
 
 
 
