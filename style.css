@@ -383,7 +383,7 @@ input[type="checkbox"] {
 
 .one1 {
     border: 9px solid rgb(215, 238, 8);
-    margin: 100px;
+    margin: 50px 60px 30px 60px;
     display: inline-flex;
 
     width: 90%;
@@ -394,7 +394,7 @@ input[type="checkbox"] {
 .one1 img {
     width: 300px;
     height: 300px;
-    margin: 30px 0px 2px 60px;
+    margin: 20px 0px 0px 30px;
 
 
 }
@@ -421,8 +421,27 @@ img[alt~="img"] {
 img[alt~="img"]:hover {
     background-color: #f9004d;
     size: 145px;
+    width: 310px;
+    height: 310px;
 }
 
 .one1 p:hover {
     background-color: #740db0;
+}
+
+.stext {
+    text-align: center;
+    font-size: 35px;
+    margin: 45px 60px 0px 300px;
+    color: rgb(234, 13, 161);
+    background-color: #11010f;
+    height: 90px;
+    width: 900px;
+    border-radius: 20px;
+
+}
+
+.stext:hover {
+    color: #99d109;
+    font-size: 38px;
 }
