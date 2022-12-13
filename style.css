@@ -5,7 +5,8 @@
 }
 
 body {
-    background: url('https://oir.mobi/uploads/posts/2022-08/1661450829_1-oir-mobi-p-zimnii-zadnii-fon-krasivo-1.jpg') no-repeat center center fixed;
+
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaIEXd33ZMM8G6R81HssHI7Hh3OtJE6zyuNQ&usqp=CAU') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -18,7 +19,7 @@ body {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    font-size: 35px;
+    font-size: 25px;
     font-family: 'Alex Brush', cursive;
     border-radius: 20px;
 
@@ -33,11 +34,12 @@ body {
 
 
 
-a {
-    text-decoration: none;
+.header nav ul a {
+    text-decoration-line: none;
 }
 
 .header ul a:hover {
+    height: 40px;
     background-color: rgb(7, 207, 200);
     border-radius: 20px;
     color: white;
@@ -63,7 +65,7 @@ tr:nth-child(even) {
 }
 
 
-table,
+/* table,
 td,
 th,
 tr {
@@ -111,7 +113,7 @@ tr:nth-child(even) {
     background-color: #f595f0;
     color: white;
     border-radius: 35px;
-}
+} */
 
 #text {
     font-size: 45px;
@@ -133,7 +135,7 @@ tr:nth-child(even) {
 
 #coment {
     padding-top: 45px;
-    margin-left: 28%;
+    margin-left: 20%;
     padding-top: 5px;
     color: rgb(230, 9, 163);
 
@@ -292,7 +294,7 @@ input {
 }
 
 video {
-    margin-left: 23%;
+    margin-left: 12%;
     border: 5px solid rgb(221, 8, 122);
     border-radius: 35px;
     margin-top: 20px;
@@ -351,18 +353,20 @@ input[type="checkbox"] {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    font-size: 35px;
+    font-size: 27px;
     font-family: 'Alex Brush', cursive;
     border-radius: 20px;
     color: white;
     border: solid 1px rgb(4, 255, 0);
+    height: 40px;
 }
 
 .contentdrop {
     display: none;
     position: absolute;
     background-color: #e8faef;
-    min-width: 150px;
+    min-width: 10px;
+
 
 }
 
